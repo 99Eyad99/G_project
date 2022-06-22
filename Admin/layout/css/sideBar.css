@@ -1,3 +1,142 @@
+.container{
+   
+	position: relative;
+	width: 100%;
+}
+
+.nav{
+	top: 0;
+	left: 0;
+    background-color: black;
+	position: fixed;
+	width: 220px;
+	height: 100%;
+	transition: 0.5s;
+
+	
+}
+
+.nav ul{
+	
+	width: 100%;
+}
+
+.nav ul li{
+
+	position: relative;
+	width: 100%;
+	list-style: none;
+	
+}
+
+
+.nav ul li:hover{
+	background-color: #3498db;
+
+}
+
+.nav ul li:nth-child(1):hover{
+	background-color: transparent;
+
+}
+
+.nav ul li a{
+	margin-left: 15px;
+	position: relative;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	line-height: 45px;
+}
+
+.nav ul li a .icon{
+	position: relative;
+	min-width: 60px;
+	font-size: 22px;
+}
+
+.nav ul li a .title{
+	position: relative;
+	padding: 0 10px;
+}
+
+.topbar{
+	width: 100%;
+	right: 0;
+	background-color: white;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.main .topbar .toggle{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+.main .topbar .profile{
+	float: right;
+	margin-right: 30px;	
+}
+
+.main .topbar .profile img{
+	width: 40px;
+	height: 45px;
+}
+
+.main .topbar .profile  .noti{
+	font-size: 30px;
+	margin: 8px 35px 0px 0px;
+	
+}
+
+.main .profile-drop-down{
+	background-color: white;
+	min-width:150px;
+	margin-left:calc(100% - 160px) ;
+	margin-right: 15px;
+
+
+}
+
+.profile-drop-down ul{
+	width: 100%;
+}
+
+.profile-drop-down ul li{
+	list-style: none;
+	width: 100%;
+
+
+}
+
+.profile-drop-down ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	line-height: 30px;
+	text-align: center;
+}
+
+.profile-drop-down ul li a:hover{
+	color: white;
+	background-color: black;
+
+
+}
+
+
+
+
 
 
 
