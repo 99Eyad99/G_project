@@ -1,0 +1,6 @@
+json
+ajax
+laravel-should
+vuejs-should
+
+https://www.youtube.com/watch?v=Rpd5uDXwpsU&list=PLDoPjvoNmBAypWmEHEy3awR6Ek9sUe5ZS

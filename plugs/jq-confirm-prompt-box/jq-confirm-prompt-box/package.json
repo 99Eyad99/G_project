@@ -1,0 +1,23 @@
+{
+  "name": "jquery-prompt",
+  "version": "1.0.0",
+  "description": "jquery prompt plugin for electron or the browser",
+  "main": "./lib/index.js",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "prompt",
+    "electron",
+    "browser"
+  ],
+  "author": "ben eaves",
+  "license": "MIT",
+  "homepage": "https://github.com/angeal185/jquery-prompt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angeal185/jquery-prompt.git"
+  },
+  "dependencies": {
+    "jquery": "^3.4.0"
+  }
+}

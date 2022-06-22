@@ -1,0 +1,46 @@
+body{
+
+    background-color:#2d3436;
+    color:white;
+	margin: 0%;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color: black;
+}
+
+.card .price{
+	font-size: 18px;
+	font-family: sans-serif;
+
+
+}
+
+.card a{
+    text-decoration: none;
+    color:white;
+}
+
+.card .fa-star{
+    color:white;
+	float:right;
+}
+
+.card .fa-bookmark{
+    color:white;
+
+}
+
+ .card button{
+	background-color: transparent;
+    border: none;
+}
+

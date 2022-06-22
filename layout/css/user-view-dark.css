@@ -1,0 +1,65 @@
+body{
+	background-color:#2d3436;
+    color:white;
+	margin: 0%;
+}
+
+.view-box{
+	background-color: black;
+	margin: 20px 0px 20px 0%;
+}
+
+.view-box .profile{
+	margin: 10px 0px 10px 0%;
+	padding-bottom: 5px;
+	
+}
+
+.view-box .profile .profile-img{
+	width: 100%;
+    border-radius: 5px;
+	
+}
+
+.view-box .profile table{
+	margin: 20px 0px 20px 10px;
+	width: 170px;
+}
+
+.view-box .profile button{
+	margin: 10px 0px 10px 10px;
+	background-color: #2980b9;
+	color: white;
+
+}
+
+.card{
+    background-color: black;
+    border-radius: 5px;
+	color: white;
+}
+
+a .card {
+	text-decoration: none;
+	color:white;
+}
+
+a .card:hover{
+	text-decoration: none;
+	color:white;
+}
+.card .fa-star{
+    float:right;
+    color:white;
+}
+
+.main .card .fa-bookmark{
+    color: white;
+}
+
+.main .card button{
+    background-color: transparent;
+    border: none;
+}
+
+

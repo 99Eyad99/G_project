@@ -1,0 +1,99 @@
+body{
+	background-color: #ecf0f1;
+
+}
+
+.card{
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+
+}
+
+.comment-rate-view{
+   
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+	min-height: 280px;
+
+}
+
+.comment-rate-view .comment-form{
+  
+	margin: 10px 0px 10px 2%;
+	width: 96%;
+
+}
+
+.comment-rate-view .comment-form h3{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.comment-rate-view .comment-form label{
+	font-size: 18px;
+
+}
+
+.comment-rate-view .comment-form button{
+	float: right;
+	margin: 10px 15px 5px 0px;
+}
+
+
+.comments{
+	margin: 15px 0px 15px 0px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 150px;
+	background-color: white;
+
+}
+
+.comments .comment{
+	
+    margin: 10px 0px 5px 0px;
+	width: 100%;
+	border-top: 1px solid #bdc3c7;
+}
+
+.comments .comment table{
+
+	margin: 5px 0px 5px 5%;
+	
+}
+
+.comments .comment table a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.card .creator{
+	margin: 10px 0px 10px 6px;
+}
+
+.card .img{
+	max-height: 360px;
+
+}
+
+.card .control .fa-bookmark{
+	font-size: 22px
+}
+
+
+.card .control .btn-success{
+	margin: 10px 0px 5px 10px;
+	padding: 5px;
+	
+}
+
+.card .card-body .card-text{
+	margin: 0px 0px 5px 25px;
+}

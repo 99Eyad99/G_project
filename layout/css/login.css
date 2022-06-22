@@ -1,0 +1,41 @@
+body{
+	background-color: #130f40;
+}
+
+.main form{
+	width: 50%;
+	margin: 50px 0px 20px 25%;
+}
+
+.main form label{
+	color: white;
+	font-size: 20px;
+}
+
+.main h1{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.main .row{
+	margin: 5px;
+}
+
+.main span{
+	color: white;
+	font-size: 16px;
+
+}
+
+.main a{
+	font-size: 16px;
+	margin-left: 10px;
+}

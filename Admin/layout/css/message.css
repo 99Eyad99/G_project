@@ -1,0 +1,138 @@
+body{
+	background-color: #F4F4F4;
+	
+}
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	margin-top: 20px;
+}
+
+
+.main{
+	position: absolute;
+	left: 220px;
+	width: calc(100% - 220px);
+	transition: 0.5s;
+}
+
+.scroll{
+	height: 400px;
+	overflow-y:scroll;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+  }
+
+ 
+
+/* end nav */ 
+
+
+/* start manage page */
+
+
+.form{
+	margin: 30px 0px 30px 0px;
+}
+
+
+.form .users{
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+
+.form .users .search{
+	margin: 10px 0px 10px 0px;
+}
+
+.form .users .search label{
+	font-size: 20px;
+}
+.form .users .search input{
+	background-color: #f5f6fa;
+}
+
+.form .users .search select{
+	background-color: #f5f6fa;
+}
+
+
+
+table{
+	background-color: white;
+	
+}
+
+table .heading{
+	background-color: black;
+	color:white ;
+}
+
+.send-form{
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.send-form label{
+	margin: 10px 0px 0px 5%;
+	font-size: 20px;
+}
+
+.send-form input{
+	margin: 5px 0px 5px 5%;
+	width: 90%;
+	background-color: #f5f6fa;
+}
+
+.send-form textarea{
+	margin: 5px 0px 5px 5%;
+	width: 90%;
+	min-height: 200px;
+	background-color: #f5f6fa;
+	border: none;
+
+}
+
+.send-form select{
+
+	margin: 5px 0px 0px 5%;
+	width: 90%;
+	background-color: #f5f6fa;
+
+}
+
+.send-form button{
+	margin-left: calc(100% - 110px);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+

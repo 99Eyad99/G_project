@@ -1,0 +1,103 @@
+body{
+	background-color: #ecf0f1;
+}
+/*
+::-webkit-scrollbar{
+	display: none;
+}
+
+*/
+.container{
+	width: 90%;
+	margin: 20px 0px 20px 5%;
+	
+}
+.box {
+	width: 100%;
+	margin-top: 25px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+.box .heading{
+	width: 100%;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.box .heading form{
+	float: right;
+
+}
+
+.box .heading button{
+	border: none;
+	background-color: white;
+}
+
+.box .heading .fa-bell{
+	margin: 5px;
+}
+
+.box .body .note{
+	width: 97%;
+	padding: 5px;
+	border-radius: 5px;
+	
+
+}
+
+
+
+.box .body .note #trash_accept{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+.box .body .note .title{
+	background-color: #34495e;
+	color: white;
+	
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px 0px 5px 20px;
+}
+
+.box .body .note .title h5{
+	max-width: 70%;
+}
+
+.box .body .note .title .control{
+	margin-right: 15px;
+	font-size: 16px;
+	float: right;
+}
+
+@media(max-width: 450px){
+	.box .body .note{
+		  
+	      overflow-x: scroll;
+	  }
+
+	  .box .body table{
+	  	min-width: 350px;
+	  }
+}
+
+
+.box .body table{
+	width: 96%;
+	margin: 10px 0px 10px 20px;
+	
+}
+
+.box .body table .control button{
+	padding: 5px;
+
+}
+
+
+
+

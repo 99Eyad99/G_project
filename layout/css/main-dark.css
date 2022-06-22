@@ -1,0 +1,60 @@
+
+
+body{
+    background-color: #2d3436;
+    color: white;
+
+
+}
+
+.main{
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.main h1{
+    margin: 25px 0px 0px 5%;
+}
+
+.main .hiring_posts{
+    width: 95%;
+    margin-top: 10px;
+    width: 95%;
+	margin-left: 2.5%;
+
+}
+
+.main .card{
+    margin: 10px 0px 10px 0px;
+    background-color: black;
+     
+}
+
+.main .card a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.main .card .price{
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+
+.main .card .fa-star{
+    float:right;
+    color:white;
+}
+
+.main .card .fa-bookmark{
+    color: white;
+}
+
+.main .card button{
+    background-color: transparent;
+    border: none;
+}
+

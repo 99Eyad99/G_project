@@ -1,0 +1,189 @@
+body{
+	background-color:#2d3436;
+    color:white;
+	margin: 0%;
+}
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.box{
+	margin: 25px 0px 25px 5%;
+	width: 90%;
+	background-color: black;
+	padding-bottom: 20px;
+}
+
+.box .heading{
+	margin: 0;
+	width: 100%;
+	background-color: #002130;
+	color: white;
+}
+
+.box .heading ul {
+	     list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+}
+
+.box .heading ul li{
+
+	     float: left;
+         position: relative;
+         padding: 5px;
+         margin-left: 10px;
+         border-radius: 5px;
+
+}
+
+
+.box .body  .control{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 25px;
+       
+    }
+
+@media(max-width: 500px){
+
+	.box .body  .control{
+        width:90%;
+        margin-left: 5%;
+        margin-bottom: 25px;
+       
+    }
+
+}
+
+ .box .body  .control ul{
+
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+
+        }
+
+.box .body  .control ul li{
+         float: left;
+         position: relative;
+         padding: 10px;
+         background-color:#2f3542;
+         margin: 10px;
+         border-radius: 5px;
+        
+    }
+
+
+
+.box .body .profile ul{
+    margin-top: 20px;
+	list-style: none;
+	background-color: #002130;
+	border: 5px solid #002130;
+	border-radius: 5px;
+
+
+}
+
+.box .body .profile ul li{
+	line-height: 50px;
+	padding: 5px;
+	border-radius: 5px;
+
+
+}
+
+.box .body .profile ul li:nth-child(odd){
+	background-color:  #002130;
+
+}
+
+.box .body .profile ul li:nth-child(even){
+	background-color: #00111a;
+
+}
+
+.box .body button{
+	margin: 20px 0px 20px 20px;
+}
+
+/* start form */
+
+.form{
+
+	width: 80%;
+	margin: 40px 0px 20px 9%;
+	background-color:#002130;
+	padding: 25px;
+	border-radius: 3px;
+}
+
+.form label{
+	font-size: 20px;
+}
+
+.form input  {
+	background-color: #00111a;
+    
+}
+
+.form select{
+    background-color: #00111a;
+}
+
+
+.form button{
+	float: right;
+	width: 150px;
+	margin-top: 20px;
+}
+
+
+/* end form */
+
+
+/* start portofilo */
+
+.porto{
+    width: 100%;
+}
+
+.proto-control{
+    margin: 20px 0px 20px 2%;
+}
+
+
+.proto-control button{
+    margin: 20px 0px 20px 0%;
+}
+
+
+
+
+
+@media(max-width: 767px){
+
+    .porto .proto-control .search select{
+        margin-top: 10px;
+    }
+
+}
+
+.porto .card{
+    background-color: black;
+    border: 1px solid whitesmoke;
+    width: 100%;
+
+}
+
+
+
+/* end portofilo */

@@ -1,0 +1,104 @@
+body{
+	background-color: #2d3436;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+/* start req table */
+.req-title{
+	margin: 10px 0px 10px 5%;
+}
+
+.req-table{
+	width: 90%;
+	margin: 20px 0px 20px 5%;
+	background-color:black;
+	padding: 5px;
+	max-height: 400px;
+	border-radius: 5px;
+}
+
+.req-table table{
+	min-width: 400px;
+	overflow: scroll;
+	color: white;
+}
+
+.req-table .search{
+	width: 80%;
+	margin: 10px 0px 10px 20px;
+}
+
+.req-table .search label{
+	font-size: 18px;
+}
+
+.req-table .search input{
+	background-color: #dfe6e9;
+}
+
+.req-table .search select{
+	background-color:#dfe6e9 ;
+}
+
+.req-table table button{
+	margin: 5px;
+}
+
+/* end req table */
+
+
+/* start post table */
+
+.post-title{
+	margin: 10px 0px 10px 5%;
+}
+.post-table{
+	width: 90%;
+	margin: 20px 0px 20px 5%;
+	background-color: black;
+	padding: 5px;
+	border-radius: 5px;
+	max-height: 400px;
+
+}
+
+.post-table table{
+	min-width: 400px;
+	overflow: scroll;
+	color: white;
+}
+
+.post-table .search{
+	width: 80%;
+	margin: 10px 0px 10px 20px;
+}
+
+.post-table .search label{
+	font-size: 18px;
+}
+
+.post-table .search input{
+	background-color: #dfe6e9;
+}
+
+.post-table .search select{
+	background-color:#dfe6e9 ;
+}
+
+
+.post-table table button{
+	margin: 5px;
+}
+
+/* start end table */

@@ -1,0 +1,79 @@
+admin
+
+CREATE TABLE `g_project`.`admin` 
+( `ID` INT(11) NOT NULL , `password` VARCHAR(255) 
+CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`first name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`last name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+, `email` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+, `image` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ) 
+ENGINE = InnoDB;
+
+skilled
+
+
+CREATE TABLE `g_project`.`skilled` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , 
+`passoword` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`token` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`first name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ `last name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`email` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ `image` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`register Date` DATE NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+
+client 
+
+
+CREATE TABLE `g_project`.`client` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , 
+`password` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ `token` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`first name` VARCHAR(255) CHARACTER SET utf32 COLLATE utf32_general_ci NOT NULL , 
+`last name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ `email` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`image` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`register Date` DATE NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+chat
+
+CREATE TABLE `g_project`.`chat` 
+( `ID` INT(11) NOT NULL AUTO_INCREMENT , `seder_ID` INT(11) NOT NULL , 
+`receiver_ID` INT(11) NOT NULL , `message` TEXT NOT NULL , 
+`Time` DATETIME NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+request 
+
+CREATE TABLE `g_project`.`request` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , 
+`requester` INT(11) NOT NULL , `provider` INT(11) NOT NULL , 
+`post ID` INT(11) NOT NULL , `price` VARCHAR(255) NOT NULL , 
+`status` BOOLEAN NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+post 
+note: comment ID cancel 
+
+CREATE TABLE `g_project`.`post` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , 
+`title` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_estonian_ci NOT NULL , 
+`post text` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , 
+`price` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`image` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`approved` BOOLEAN NOT NULL , `section ID` INT NOT NULL ,
+ `approver ID` INT NOT NULL , `creator ID` INT NOT NULL , 
+PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+
+comment
+
+CREATE TABLE `g_project`.`comment` 
+( `ID` INT NOT NULL AUTO_INCREMENT , 
+`comment` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL ,
+ `creator ID` INT NOT NULL , `post ID` INT NOT NULL , 
+PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+section
+
+CREATE TABLE `g_project`.`section` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , 
+`name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
+`ordering` INT(11) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+
+

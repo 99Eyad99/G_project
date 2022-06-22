@@ -1,0 +1,71 @@
+body{
+	background-color: #F4F4F4;
+	
+}
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.main{
+	position: absolute;
+	left: 220px;
+	width: calc(100% - 220px);
+	transition: 0.5s;
+	}
+
+h1{
+	margin-top: 20px;
+}
+
+
+/*  start manage */
+
+
+
+.search{
+
+	width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+
+}
+
+.search input{
+	width: 100%;
+}
+
+.search label{
+	font-size: 20px;
+
+}
+
+
+.manage-table{
+	width: 82%;
+	margin-top: 15px;
+	margin-left: 9%;
+
+}
+
+.manage-table table{
+	border: 15px solid white;
+}
+
+.manage-table table thead{
+	background-color: white;
+	color: black;
+	
+}
+
+.manage-table table button{
+	margin: 3px;
+	width: 100%;
+
+}
+
+/* end manage */

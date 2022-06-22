@@ -1,0 +1,49 @@
+body{
+	background-color: #ecf0f1;
+}
+
+
+.main{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.main h1{
+	margin: 25px 0px 0px 2.5%;
+}
+
+.main .hiring_posts{
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 10px;
+}
+
+.main .card{
+	width: 100%;
+}
+
+.main .card a{
+	color: black;
+	text-decoration: none;
+}
+
+.main .card .price{
+	font-size: 18px;
+	font-family: sans-serif;
+
+
+}
+
+.main .card .fa-star{
+	float:right;
+}
+
+.main .card button{
+	background-color: transparent;
+    border: none;
+}
+
+.main .card  .checked {
+  color: orange;
+}
+

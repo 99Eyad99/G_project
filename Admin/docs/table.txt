@@ -1,0 +1,66 @@
+       echo '<h1 class="text-center">manage categories</h1>';
+
+      ?>
+
+<div class="table-responsive">
+  <table class="table table-bordered">
+  	<thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Ordering</th>
+      <th scope="col">Description</th>
+      <th scope="col">Visibility</th>
+      <th scope="col">Allow-Comments</th>
+      <th scope="col">allow-ads</th>
+      <th scope="col">parent</th>
+      <th scope="col">control</th>
+    </tr>
+  </thead
+      <?php
+
+foreach($rows as $row){
+    echo '  <tbody>
+    <tr>';
+    echo '<th scope="row">'.$row['ID'].'</th>';
+    echo ' <td>'.$row['name'].'</td>';
+    echo ' <td>'.$row['ordering'].'</td>';
+    echo ' <td>'.$row['description'].'</td>';
+
+    if($row['visibility']==1){
+        echo ' <td> Visible </td>';
+    }else{
+        echo ' <td> Not Visible</td>';
+    }
+
+    if($row['allow-comments']==1){
+        echo ' <td> Allowed </td>';
+    }else{
+        echo ' <td> Not Allowed</td>';
+    }
+
+    if($row['allow-ads']==1){
+        echo ' <td> Allowed </td>';
+    }else{
+        echo ' <td> Not Allowed</td>';
+    }
+
+   
+    
+
+
+    echo '<tbody>';
+
+    
+
+      
+}
+
+?>
+
+ </table>
+</div>
+
+
+<?php
+

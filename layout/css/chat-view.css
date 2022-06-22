@@ -1,0 +1,90 @@
+body{
+    background-color: #ecf0f1; 
+}
+
+.chat-view{
+  width: 90%;
+  background-color: white;
+  margin: 25px 0px 25px 5%;
+
+}
+
+.chat-view .heading{
+  width: 100%;
+  background-color: #2980b9;
+  color: white;
+}
+
+.chat-view .heading .fa-arrow-left{
+  margin: 5px 0px 0px 10px;
+}
+
+.chat-view .heading .profile{
+  margin: 5px 0px 5px 10px;
+  padding: 10px;
+}
+
+.chat-view .heading .profile .name{
+  margin: 5px 0px 0px 5px;
+}
+
+.chat-view .contant{
+  height: 360px;
+  overflow-y: scroll;
+
+}
+
+.chat-view .contant .send{
+  margin: 10px 0px 5px 3%;
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+}
+
+.chat-view .contant .send label{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #d1dce0 ;
+}
+
+.time{
+  background-color: #ecf0f1;
+}
+
+.chat-view .contant .received{
+  margin: 5px 20px 5px 10%;
+  padding: 5px;
+}
+
+.chat-view .contant .received label{
+  padding: 5px;
+  border-radius: 5px;
+  background-color:  #ecf0f1;
+}
+
+.chat-view .input{
+  background-color:#2980b9;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  margin: 0;
+}
+
+.chat-view .input form{
+  width: 100%;
+}
+
+.chat-view .input form textarea{
+  font-size: 15px;
+  background-color:white;
+  width:calc(100% - 100px);
+  border-radius: 5px;
+  border:1px white solid;
+}
+
+.chat-view .input button{
+  background-color:transparent;
+  border:none;
+  color:white;
+}
+

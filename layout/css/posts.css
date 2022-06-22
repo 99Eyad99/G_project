@@ -1,0 +1,38 @@
+body{
+	background-color: #ecf0f1;
+}
+
+
+.main .search{
+	width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+
+}
+
+.main .search input{
+	width: 100%;
+}
+
+.main .search label{
+	font-size: 20px;
+
+}
+
+.main .posts{
+	margin: 20px 0px 20px 0px;
+
+}
+
+.main .posts a{
+	text-decoration: none;
+	color: black;
+}
+
+.main .card .fa-star{
+    float:right;
+}
+
+
+
+
